@@ -91,19 +91,19 @@ RegisterNumber:  212222230068
 
 ![Exp-6-Synchornous-counters - up counter and down counter ](upc1.png)
 
-![Exp-6-Synchornous-counters - up counter and down counter ](downc3.png)
+![Exp-6-Synchornous-counters - up counter and down counter ](downc3.jpg)
 
 ### TIMING DIGRAMS FOR COUNTER  
 
 ![Exp-6-Synchornous-counters - up counter and down counter ](upc2.png)
 
-![Exp-6-Synchornous-counters - up counter and down counter ](downc4.png)
+![Exp-6-Synchornous-counters - up counter and down counter ](downc4.jpg)
 
 ### TRUTH TABLE 
 
-![Exp-6-Synchornous-counters - up counter and down counter ](upc.png)
+![Exp-6-Synchornous-counters - up counter and down counter ](upc.jpg)
 
-![Exp-6-Synchornous-counters - up counter and down counter ](downc.png)
+![Exp-6-Synchornous-counters - up counter and down counter ](downc.jpg)
 
 
 ### RESULTS 
