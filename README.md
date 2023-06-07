@@ -46,43 +46,65 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 
 4-bit Count Down Counter
 ### Procedure
-/* write all the steps invloved */
+
 
 
 
 ### PROGRAM 
 /*
+```
+UPCOUNTER:
+module upc(clk,A);
+input clk;
+output reg[0:3]A;
+always@(posedge clk)
+begin
+		A[0]=((((A[1])&(A[2]))&A[3])^A[0]);
+		A[1]=(((A[2])&(A[3]))^A[1]);
+		A[2]=((A[3])^A[2]);
+		A[3]=1^A[3];
+end
+endmodule
+
+DOWNCOUNTER:
+module downc(clk,A);
+input clk;
+output reg[0:3]A;
+always@(posedge clk)
+begin
+	A[0]=((((~A[1])&(~A[2]))&A[3])^A[0]);
+	A[1]=(((~A[2])&(~A[3]))^A[1]);
+	A[2]=((~A[3])^A[2]);
+	A[3]=1^A[3];
+end
+endmodule
+```
+
+
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+Developed by: KOUSALYA A.
+RegisterNumber:  212222230068
 */
-
-
-
-
 
 
 ### RTL LOGIC UP COUNTER AND DOWN COUNTER  
 
+![Exp-6-Synchornous-counters - up counter and down counter ](upc1.png)
 
-
-
-
-
-
-
+![Exp-6-Synchornous-counters - up counter and down counter ](downc3.png)
 
 ### TIMING DIGRAMS FOR COUNTER  
 
+![Exp-6-Synchornous-counters - up counter and down counter ](upc2.png)
 
-
-
+![Exp-6-Synchornous-counters - up counter and down counter ](downc4.png)
 
 ### TRUTH TABLE 
 
+![Exp-6-Synchornous-counters - up counter and down counter ](upc.png)
 
-
-
+![Exp-6-Synchornous-counters - up counter and down counter ](downc.png)
 
 
 ### RESULTS 
+   Thus The program for counters is successfully executed.
