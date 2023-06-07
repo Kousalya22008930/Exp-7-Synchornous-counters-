@@ -47,7 +47,15 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 4-bit Count Down Counter
 ### Procedure
 
+1.Create a new project in Quartus|| Software. 
 
+2.Name the project as upc and downc for up and down counter. 
+
+3.Create a new verilog hdl file in the project file. 
+
+4.Within that file write the program for up and down counter 
+
+5.After that run the program and give the clock pulse value as 50 in timing diagram and run the program.
 
 
 ### PROGRAM 
